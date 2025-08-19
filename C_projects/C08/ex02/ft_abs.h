@@ -6,7 +6,13 @@
 /*   By: victode- <victode-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/11 15:35:36 by victode-          #+#    #+#             */
-/*   Updated: 2025/08/11 15:35:37 by victode-         ###   ########.fr       */
+/*   Updated: 2025/08/12 15:53:35 by victode-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_ABS_H
+# define FT_ABS_H
+
+# define ABS(Value) (Value < 0) ? (Value * -1) : (Value)
+
+#endif

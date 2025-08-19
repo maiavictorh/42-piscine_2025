@@ -1,22 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_point.h                                         :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: victode- <victode-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/11 15:35:40 by victode-          #+#    #+#             */
-/*   Updated: 2025/08/16 15:10:50 by victode-         ###   ########.fr       */
+/*   Created: 2025/08/12 19:43:15 by victode-          #+#    #+#             */
+/*   Updated: 2025/08/14 11:19:00 by victode-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_POINT_H
-# define FT_POINT_H
+#include "../includes/ft.h"
 
-typedef struct s_point
+void	ft_putchar(char c)
 {
-	int	x;
-	int	y;
-}	t_point;
-
-#endif
+	write (1, &c, 1);
+}
