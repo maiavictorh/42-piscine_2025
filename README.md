@@ -57,6 +57,8 @@ cc -Wall -Wextra -Werror ft_function.c -o output
 | C05    | 🔧 Incomplete |
 | C06     | ✅ Complete |
 | C07    | 🔧 Incomplete |
+| C08     | ✅ Complete |
+| C09     | ✅ Complete |
 | Exam00     | ✅ Complete |
 | Exam01     | ✅ Complete |
 
